@@ -79,18 +79,31 @@
             </div>
         </main>
 
-        <section class="container text-center" id="answer-section">
+        <section class="container my-5" id="answer-section">
             <div class="row">
-                <div class="col-md-6 col-lg-6">
+                <div class="col-md-12 col-lg-12">
                     <div class="text">
                         <h3>How does javascript work?</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, obcaecati iure blanditiis repudiandae modi ipsa debitis rem libero quasi possimus similique impedit repellat commodi? Ipsam reprehenderit quidem aspernatur debitis harum?</p>
+                        <p>JavaScript is a client-side scripting language and one of the Most efficient commonly used scripting languages. The JavaScript language is usually powered by the JavaScript language.
+                            Most web browsers are based on JavaScript Engine. Google Chrome uses an engine called "V8" to manage JavaScript.In the first stage of the engine, every time we run a JavaScript program, our code is first received by the "parser" inside the JS engine. The parser's job is to check the JavaScript code for syntactic errors in line by line manner because JavaScript is an interpretive scripting language, so whenever an error is detected by the parser, it throws a kind of error and stops the execution of the code.
+                            Once the parser checks all JavaScript codes and gets satisfied that there are no mistakes/errors in the code, it creates the data structure called AST (it stands for Abstract Syntax Tree).
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6">
+                <div class="col-md-12 col-lg-12">
                     <div class="text">
-                        <h3>How does javascript work?</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, obcaecati iure blanditiis repudiandae modi ipsa debitis rem libero quasi possimus similique impedit repellat commodi? Ipsam reprehenderit quidem aspernatur debitis harum?</p>
+                        <h3 class="mb-3">Local Storage va Session Storage</h3>
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6">
+                                <h5>Local Storage</h5>
+                                <p>localStorage and sessionStorage are web storage objects that allow key / value pairs to be stored in the browser. The funny thing about them is that the data survives even after a page refresh (for sessionStorage) and even a complete browser restart (for localStorage). Local storage data is shared between different tabs and windows in the browser. It does not expire data even after browser restart and OS reboot.</p>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <h5>Session Storage</h5>
+                                <p>The sessionStorage object is much less commonly used than the localStorage object. Although the session storage properties and methods are the same, they are very limited. sessionStorage exists only in the Browser Current tab. Another tab on the same page will have separate storage. Data pages survive after the refresh, but not when tabs are closed or new tabs are opened.</p>
+                            </div>
+                        </div>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -99,6 +112,6 @@
         <footer></footer>
 
         <!-- add javascript  file  -->
-        <script src="./js/app.js"></script>
+        <script src="js/app.js"></script>
     </body>
 </html>
